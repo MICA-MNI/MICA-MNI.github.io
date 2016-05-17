@@ -99,6 +99,6 @@ h2 {
 ul{
     list-style-type: circle;
 }
-a.nav, a.nav:link, a.nav:visited {display:block; width:98px; height:20px; background:#ffffff; border:1px solid #000033; margin-top:0px; text-align:center; text-decoration:none; font-family:verdana, sans-serif; font-size:10px; color:#000033;float:left}
+a.nav, a.nav:link, a.nav:visited {display:block; width:200px; height:30px; background:#ffffff; border:0px solid #000033; margin-top:0px; text-align:center; text-decoration:none; font-family:verdana, sans-serif; font-size:20px; color:#000033;float:left}
 a.nav:hover {color:#fff; background:#764;}
 a.nav:active {color:#fff; background:#c00;}
