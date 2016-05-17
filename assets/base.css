@@ -15,24 +15,27 @@ body {
 }
 h1, h2 {
   font-family: 'Roboto', sans-serif;
-}
-h1 {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 46px;
   color: #111B52;
 }
+h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+}
 h2 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   line-height: 33px;
   margin-bottom: -20px;
 }
 p {
-  font-weight: 100;
+  font-weight: 200;
+  color: 464646;
   margin: 20px 0;
 }
 a:link, a:visited, a:hover, a:active {
+  font-weight: 200;
+  color: #111B52;
   text-decoration: none;
 }
 
