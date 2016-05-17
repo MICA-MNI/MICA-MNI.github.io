@@ -49,13 +49,13 @@ p {
   line-height: 26px;
 }
 a:link,a:active {
-  font-weight: 300;
-  color: #111B52;
+  font-weight: 400;
+  color: #0B0B3B;
   text-decoration: none;
 }
 a:visited, a:hover {
-  font-weight: 300;
-  color: #111B52;
+  font-weight: 400;
+  color: #0B0B3B;
   text-decoration: underline;
 }
 
@@ -103,11 +103,11 @@ a:visited, a:hover {
 /* SPECIAL */
 .onblue:link {
   color: #FFFFFF;
-  font-weight: 300;
+  font-weight: 400;
 }
 .onblue:visited, .onblue:hover {
   color: #FFFFFF;
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: underline;
 }
 .summary {
