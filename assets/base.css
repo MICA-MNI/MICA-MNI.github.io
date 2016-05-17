@@ -77,16 +77,16 @@ a:link, a:visited, a:hover, a:active {
   color: #747474;
 }
 .some-related-articles h1 {
-  color: #384e56;
+  color: #0B0B3B;
   margin-top: 60px;
   text-transform: uppercase;
 }
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
-  color: #464646;
+  color: #0B0B3B;
   transition: color 0.1s ease;
 }
 .some-related-articles h2 a:hover {
-  color: #000000;
+  color: #4F62CE;
   transition: color 0.3s ease;
 }
 /* SPECIAL */
