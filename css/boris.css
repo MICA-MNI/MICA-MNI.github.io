@@ -41,6 +41,17 @@ body {
     background-color: #ffffff;     
     color: #ffffff;
 }
+
+.menuBar{
+    width:100%;
+    height:50px;
+    display:block;
+    position:absolute;
+    background-color:#000033;
+    top:0;
+    left:0
+}
+    
 #linecontent{
     position:fixed;
     top: 0px;
@@ -99,6 +110,6 @@ h2 {
 ul{
     list-style-type: circle;
 }
-a.nav, a.nav:link, a.nav:visited {display:block; width:200px; height:30px; background:#ffffff; border:0px solid #000033; margin-top:0px; text-align:center; text-decoration:none; font-family:verdana, sans-serif; font-size:20px; color:#000033;float:left}
+a.nav, a.nav:link, a.nav:visited {display:block; width:200px; height:30px; background:#ffffff; margin-top:0px; text-align:center; text-decoration:none; font-family:verdana, sans-serif; font-size:14px; color:#000033;float:left}
 a.nav:hover {color:#fff; background:#764;}
 a.nav:active {color:#fff; background:#c00;}
