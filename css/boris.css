@@ -33,11 +33,11 @@ body {
 
 #menucontent{
     position: absolute; 
-    top: 300px; 
+    top: 10px; 
     left: 0px; 
     width: 700px; 
     height: 40px; /*Height of frame div*/
-    overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/     
+    overflow: scroll; /*Disable scrollbars. Set to "scroll" to enable*/     
     background-color: #ffffff;     
     color: #ffffff;
 }
