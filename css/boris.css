@@ -8,15 +8,25 @@ body {
 	line-height: 1.88889;
 	color: #666666; 
 	/*background: #FFFFFF no-repeat bottom right; */
-	margin: 0px auto; 
+	margin-top: 50px; 
 	padding: 0px;
 	width: 100%;
 	text-align: center;
 }
+.menuBar{
+    width:100%;
+    height:50px;
+    display:block;
+    position:absolute;
+    background-color:#000033;
+    top:0;
+    left:0
+}
+
 #wrapper {
 	position: relative; 
 	width: 700px; 
-	margin: 0px auto; 
+	margin-top: 50px; 
 	text-align: left; 
 }
 
@@ -42,15 +52,7 @@ body {
     color: #ffffff;
 }
 
-.menuBar{
-    width:100%;
-    height:50px;
-    display:block;
-    position:absolute;
-    background-color:#000033;
-    top:0;
-    left:0
-}
+
     
 #linecontent{
     position:fixed;
