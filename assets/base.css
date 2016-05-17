@@ -65,8 +65,9 @@ a:visited, a:hover {
 }
 
 .content {
-  position: relative;
-  background: #000000 url(brain_1lr.jpg) no-repeat center bottom fixed;
+  position: absolute;
+  top: 60px;
+  background: #000000 url(brain_1lr.jpg) no-repeat center top fixed;
   background-size: initial;
  }
  .content_contact {
