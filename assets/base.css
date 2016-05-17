@@ -15,18 +15,19 @@ body {
 }
 h1, h2 {
   font-family: 'Roboto', sans-serif;
-  color: #111B52;
 }
 h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 46px;
+  color: 0B0B3B;
 }
 h2 {
   font-weight: 400;
-  font-size: 20px;
-  line-height: 33px;
+  font-size: 16px;
+  line-height: 25px;
   margin-bottom: -20px;
+  color: 0B0B3B;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
