@@ -2,6 +2,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
+	scroll-behavior: smooth;
 	}
 body { 
 	font: 75% verdana, sans-serif;
