@@ -1,5 +1,5 @@
 /* WEB FONT */
-@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Nunito);
 
 /* RESET */
 * {
@@ -9,21 +9,21 @@
 }
 /* BASIC */
 body {
-  font: normal 18px/22px "Varela Round", sans-serif;
+  font: normal 18px/22px "Nunito", sans-serif;
   background-color: #e9ffff;
   color: #2e2e2e;
 }
 h1, h2 {
-  font-family: "Signika", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
 h1 {
-  font-size: 36px;
+  font-size: 24px;
   line-height: 46px;
   color: #e0e0e0;
 }
 h2 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 33px;
   margin-bottom: -20px;
 }
@@ -81,7 +81,7 @@ a:link, a:visited, a:hover, a:active {
   max-width: 200px;
   margin: 50px 10px 30px 10px;
   padding: 10px;
-  font-family: "Signika", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #ffffff;
   background-color: transparent;
   border: 2px solid #ffffff;
