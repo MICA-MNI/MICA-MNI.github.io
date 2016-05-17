@@ -9,12 +9,12 @@
 }
 /* BASIC */
 body {
-  font: normal 18px/22px "Verdana", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: #2e2e2e;
 }
 h1, h2 {
-  font-family: "Verdana", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 h1 {
@@ -81,7 +81,7 @@ a:link, a:visited, a:hover, a:active {
   max-width: 200px;
   margin: 50px 10px 30px 10px;
   padding: 10px;
-  font-family: "Verdana", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: transparent;
   border: 2px solid #ffffff;
