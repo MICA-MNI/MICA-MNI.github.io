@@ -20,14 +20,14 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 46px;
-  color: 0B0B3B;
+  color: #0B0B3B;
 }
 h2 {
   font-weight: 400;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: -20px;
-  color: 0B0B3B;
+  color: #0B0B3B;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
@@ -56,6 +56,11 @@ a:link, a:visited, a:hover, a:active {
 .content {
   position: relative;
   background: #464646 url(59H-from-gratisography.jpg) no-repeat center center fixed;
+  background-size: cover;
+ }
+ .content_contact {
+  position: relative;
+  background: #0B0B3B no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
