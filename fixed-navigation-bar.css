@@ -34,6 +34,9 @@
 .menu-items {
   display: inline-block;
 }
+.menu-items-social {
+  display: inline-block;
+}
 .sitename {
   display: inline-block;
   margin-right: 20px;
@@ -49,6 +52,11 @@ a.sitename, a:visited.sitename {
 }
 .menu-items a {
   text-decoration: none;
+}
+.menu-items-social li {
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .show, .hide {
   display: none;
