@@ -35,7 +35,7 @@ h2 {
 }
 h3 {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 24px;
   line-height: 33px;
@@ -46,10 +46,15 @@ p {
   color: #1F1F1F;
   margin: 20px 0;
 }
-a:link, a:visited, a:hover, a:active {
-  font-weight: 200;
+a:link,a:hover, a:active {
+  font-weight: 300;
   color: #111B52;
-  text-decoration: none;
+  text-decoration: underline;
+}
+a:visited {
+  font-weight: 300;
+  color: #1F1F1F;
+  text-decoration: underline;
 }
 
 /* LAYOUT */
