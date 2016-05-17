@@ -54,7 +54,7 @@ a.sitename, a:visited.sitename {
   text-decoration: none;
 }
 .menu-items-social li {
-  float: right;
+ display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
 }
