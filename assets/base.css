@@ -101,6 +101,14 @@ a:visited {
   transition: color 0.3s ease;
 }
 /* SPECIAL */
+.onblue:link {
+  color: #1F1F1F;
+  font-weight: 300;
+}
+.onblue:visited {
+  color: #1F1F1F;
+  font-weight: 200;
+}
 .summary {
   color: #d9dee2;
   margin-top: 40px;
