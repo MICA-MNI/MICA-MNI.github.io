@@ -66,12 +66,19 @@ a:visited, a:hover {
 
 .content {
   position: relative;
-  background: #000000 url(brain_1.jpg) no-repeat center center fixed;
+  background: #000000 url(brain_1lr.jpg) no-repeat center center fixed;
   background-size: cover;
  }
  .content_contact {
   position: relative;
   background: #0B0B3B no-repeat center center fixed;
+  background-size: cover;
+ }
+.content_black {
+  position: relative;
+  min-height: 50px;
+  max-height: 50px;
+  background: #000000 no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
