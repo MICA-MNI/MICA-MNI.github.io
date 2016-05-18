@@ -165,7 +165,7 @@ a:visited, a:hover {
   position: relative;
   max-width: 800px;
   height: 400px;
-  margin: 5em auto .5em auto;
+  margin: 0px;
 }
 .css-slideshow figure{
   margin: 0;
