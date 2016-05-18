@@ -164,10 +164,11 @@ a:visited, a:hover {
 .css-slideshow{
   position: relative;
   max-width: 800px;
-  height: 400px;
+  height: 420px;
   5em auto .5em auto;
 }
 .css-slideshow figure{
+  top: 20;
   margin: 0;
   max-width: 800px;
   height: 400px;
@@ -181,8 +182,8 @@ a:visited, a:hover {
   font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
-  color: #0B0B3B;
-  background: rgba(0,0,0, .4);
+  color: #FFFFFF;
+  background: rgba(0,0,0.8, .2);
   font-weight: 300;
   padding: 8px 12px;
   opacity: 0;
@@ -190,7 +191,7 @@ a:visited, a:hover {
   max-width: 800px;
   min-width: 800px;
   text-align: left;
-  font-size: 14px;
+  font-size: 12px;
 }
 .css-slideshow:hover figure figcaption{
   transition: opacity .5s;
