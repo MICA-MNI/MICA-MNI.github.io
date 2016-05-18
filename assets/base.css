@@ -123,6 +123,11 @@ a:visited, a:hover {
   margin-top: 40px;
   margin-bottom: 60px;
 }
+.summary2 {
+  color: #d9dee2;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
 .button, .button:visited, .button-dark {
   display: inline-block;
   max-width: 200px;
