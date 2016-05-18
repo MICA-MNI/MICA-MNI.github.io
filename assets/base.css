@@ -182,8 +182,8 @@ a:visited, a:hover {
   font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
-  color: #FFFFFF;
-  background: rgba(0,0,0.8, .2);
+  color: #0B0B3B;
+  background: rgba(0,0,0, .4);
   font-weight: 300;
   padding: 8px 12px;
   opacity: 0;
