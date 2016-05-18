@@ -165,7 +165,7 @@ a:visited, a:hover {
   position: relative;
   max-width: 800px;
   height: 400px;
-  margin: 0px;
+  5em auto .5em auto;
 }
 .css-slideshow figure{
   margin: 0;
@@ -175,7 +175,7 @@ a:visited, a:hover {
   position: absolute;
 }
 .css-slideshow img{
-  box-shadow: 0 0 2px #666;
+  box-shadow: 0 0 0px #ffffff;
 }
 .css-slideshow figcaption{
   font-family: 'Roboto', sans-serif;
