@@ -181,12 +181,14 @@ a:visited, a:hover {
   font-family: 'Roboto', sans-serif;
   position: absolute;
   top: 0;
-  color: #1F1F1F;
-  background: rgba(0,0,0, .3);
-  font-size: .8em;
+  color: #0B0B3B;
+  background: rgba(0,0,0, .4);
+  font-weight: 300;
   padding: 8px 12px;
   opacity: 0;
   transition: opacity .5s;
+  max-width: 800px;
+  min-width: 800px;
 }
 .css-slideshow:hover figure figcaption{
   transition: opacity .5s;
