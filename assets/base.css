@@ -189,6 +189,8 @@ a:visited, a:hover {
   transition: opacity .5s;
   max-width: 800px;
   min-width: 800px;
+  text-align: left;
+  font-size: 14px;
 }
 .css-slideshow:hover figure figcaption{
   transition: opacity .5s;
