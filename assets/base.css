@@ -183,7 +183,7 @@ a:visited, a:hover {
   position: absolute;
   top: 370;
   color: #0B0B3B;
-  background: rgba(1,1,1, .1);
+  background: rgba(1,1,1, 0);
   font-weight: 300;
   padding: 8px 12px;
   opacity: 0;
