@@ -188,9 +188,9 @@ a:visited, a:hover {
   padding: 8px 12px;
   opacity: 0;
   transition: opacity .5s;
-  max-width: 800px;
-  min-width: 800px;
-  text-align: left;
+  max-width: 1000px;
+  min-width: 1000px;
+  text-align: center;
   font-size: 12px;
 }
 .css-slideshow:hover figure figcaption{
