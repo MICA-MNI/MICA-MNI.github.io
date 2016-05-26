@@ -181,9 +181,9 @@ a:visited, a:hover {
 .css-slideshow figcaption{
   font-family: 'Roboto', sans-serif;
   position: absolute;
-  top: 0;
+  top: 370;
   color: #0B0B3B;
-  background: rgba(1,1,1, .4);
+  background: rgba(1,1,1, .9);
   font-weight: 300;
   padding: 8px 12px;
   opacity: 0;
