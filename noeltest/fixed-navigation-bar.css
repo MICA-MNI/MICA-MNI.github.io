@@ -26,10 +26,10 @@
   margin: 0 auto;
 }
 .menu a, .menu a:visited {
-  color: #ffffff;
+  color: #30231d;
 }
 .menu a:hover, .menu a:target {
-  color: #30231d;
+  color: #6a5750;
 }
 .menu-items {
   display: inline-block;
