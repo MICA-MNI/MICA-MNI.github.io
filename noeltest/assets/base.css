@@ -66,20 +66,20 @@ a:visited, a:hover {
 
 .content {
   position: relative;
-  background: #000000 url(brain_1lr.jpg) no-repeat center top fixed;
+  background: #b5a397 url(brain_1lr.jpg) no-repeat center top fixed;
   background-size: initial;
   min-height: 550px;
   max-height: 550px;
  }
  .content_contact {
   position: relative;
-  background: #0B0B3B no-repeat center center fixed;
+  background: #6a5750 no-repeat center center fixed;
   background-size: cover;
  }
 .content_black {
   position: relative;
   min-height: 60px;
-  background: #000000 no-repeat center center fixed;
+  background: #30231d no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
@@ -96,35 +96,35 @@ a:visited, a:hover {
   color: #1F1F1F;
 }
 .some-related-articles h1 {
-  color: #0B0B3B;
+  color: #6a5750;
   margin-top: 60px;
   text-transform: uppercase;
 }
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
-  color: #0B0B3B;
+  color: #6a5750;
   transition: color 0.1s ease;
 }
 .some-related-articles h2 a:hover {
-  color: #4F62CE;
+  color: #6a5750;
   transition: color 0.3s ease;
 }
 /* SPECIAL */
 .onblue:link {
-  color: #FFFFFF;
+  color: #f6f1ed;
   font-weight: 400;
 }
 .onblue:visited, .onblue:hover {
-  color: #FFFFFF;
+  color: #f6f1ed;
   font-weight: 400;
   text-decoration: underline;
 }
 .summary {
-  color: #d9dee2;
+  color: #30231d;
   margin-top: 40px;
   margin-bottom: 60px;
 }
 .summary2 {
-  color: #d9dee2;
+  color: #30231d;
   margin-top: 20px;
   margin-bottom: 60px;
 }
@@ -136,7 +136,7 @@ a:visited, a:hover {
   font-family: 'Roboto', sans-serif;
   color: #ffffff;
   background-color: transparent;
-  border: 2px solid #ffffff;
+  border: 2px solid #f6f1ed;
   border-radius: 3px;
   text-transform: capitalize;
   text-align: center;
@@ -144,8 +144,8 @@ a:visited, a:hover {
 }
 .button-dark, .button-dark:visited {
   margin: 20px 10px 30px 0;
-  color: #464646;
-  border-color: #464646;
+  color: #30231d;
+  border-color: #30231d;
 
 }
 .button:hover, .button-dark:hover {
@@ -182,7 +182,7 @@ a:visited, a:hover {
   font-family: 'Hind', sans-serif;
   position: absolute;
   top: 370;
-  color: #0B0B3B;
+  color: #30231d;
   background: rgba(1,1,1, 0);
   font-weight: 300;
   padding: 8px 12px;
