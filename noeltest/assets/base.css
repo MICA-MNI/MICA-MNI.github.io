@@ -93,33 +93,33 @@ a:visited, a:hover {
   text-align: center;
 }
 .some-related-articles {
-  color: #cccccc;
+  color: #333333;
 }
 .some-related-articles h1 {
-  color: #cccccc;
+  color: #660000;
   margin-top: 60px;
   text-transform: uppercase;
 }
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
-  color: #cccccc;
+  color: #660000;
   transition: color 0.1s ease;
 }
 .some-related-articles h2 a:hover {
-  color: #cccccc;
+  color: #333333;
   transition: color 0.3s ease;
 }
 /* SPECIAL */
 .onblue:link {
-  color: #cccccc;
+  color: #333333;
   font-weight: 400;
 }
 .onblue:visited, .onblue:hover {
-  color: #cccccc;
+  color: #333333;
   font-weight: 400;
   text-decoration: underline;
 }
 .summary {
-  color: #cccccc;
+  color: #333333;
   margin-top: 40px;
   margin-bottom: 60px;
 }
