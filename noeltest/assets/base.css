@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f6f1ed;
-  color: #30231d;
+  color: #ffffff;
   text-align: center;
 }
 h1, h2 {
@@ -24,18 +24,18 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 46px;
-  color: #6a5750;
+  color: #1E1EB1;
 }
 h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: -20px;
-  color: #6a5750;
+  color: #1E1EB1;
 }
 h3 {
   font-family: 'Hind', sans-serif;
-  color: #6a5750;
+  color: #4040BC;
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
@@ -43,19 +43,19 @@ h3 {
 }
 p {
   font-weight: 300;
-  color: #30231d;
+  color: #1E1EB1;
   margin: 20px 0;
   font-size: 16px;
   line-height: 26px;
 }
 a:link,a:active {
   font-weight: 400;
-  color: #6a5750;
+  color: #1E1EB1;
   text-decoration: none;
 }
 a:visited, a:hover {
   font-weight: 400;
-  color: #6a5750;
+  color: #1E1EB1;
   text-decoration: underline;
 }
 
