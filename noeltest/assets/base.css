@@ -15,7 +15,7 @@ body {
   font-family: 'Hind', sans-serif;
   background-color: #ffffff;
   color: #333333;
-  text-align: center;
+  text-align: left;
 }
 h1, h2 {
   font-family: 'Hind', sans-serif;
@@ -101,7 +101,7 @@ a:visited, a:hover {
 .description {
   padding-top: 100px;
   min-height: 250px;
-  text-align: center;
+  text-align: left;
 }
 .some-related-articles {
   color: #333333;
