@@ -12,9 +12,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Hind', sans-serif;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #333333;
   text-align: center;
 }
 h1, h2 {
@@ -24,38 +24,38 @@ h1 {
   font-weight: 400;
   font-size: 24px;
   line-height: 46px;
-  color: #1E1EB1;
+  color: #660000;
 }
 h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: -20px;
-  color: #1E1EB1;
+  color: #660000;
 }
 h3 {
   font-family: 'Hind', sans-serif;
-  color: #4040BC;
+  color: #660000;
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
   margin-bottom: -10px;
 }
-p {
+p, li {
   font-weight: 300;
-  color: #1E1EB1;
+  color: #333333;
   margin: 20px 0;
   font-size: 16px;
   line-height: 26px;
 }
 a:link,a:active {
   font-weight: 400;
-  color: #1E1EB1;
+  color: #660000;
   text-decoration: none;
 }
 a:visited, a:hover {
   font-weight: 400;
-  color: #1E1EB1;
+  color: #990000;
   text-decoration: underline;
 }
 
@@ -66,20 +66,20 @@ a:visited, a:hover {
 
 .content {
   position: relative;
-  background: #b5a397 url(brain_1lr.jpg) no-repeat center top fixed;
+  background: #ffffff url(brain_1lr.jpg) no-repeat center top fixed;
   background-size: initial;
   min-height: 550px;
   max-height: 550px;
  }
  .content_contact {
   position: relative;
-  background: #6a5750 no-repeat center center fixed;
+  background: # no-repeat center center fixed;
   background-size: cover;
  }
 .content_black {
   position: relative;
   min-height: 60px;
-  background: #30231d no-repeat center center fixed;
+  background: #660000 no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
@@ -93,38 +93,38 @@ a:visited, a:hover {
   text-align: center;
 }
 .some-related-articles {
-  color: #1F1F1F;
+  color: #cccccc;
 }
 .some-related-articles h1 {
-  color: #6a5750;
+  color: #cccccc;
   margin-top: 60px;
   text-transform: uppercase;
 }
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
-  color: #6a5750;
+  color: #cccccc;
   transition: color 0.1s ease;
 }
 .some-related-articles h2 a:hover {
-  color: #6a5750;
+  color: #cccccc;
   transition: color 0.3s ease;
 }
 /* SPECIAL */
 .onblue:link {
-  color: #f6f1ed;
+  color: #cccccc;
   font-weight: 400;
 }
 .onblue:visited, .onblue:hover {
-  color: #f6f1ed;
+  color: #cccccc;
   font-weight: 400;
   text-decoration: underline;
 }
 .summary {
-  color: #30231d;
+  color: #cccccc;
   margin-top: 40px;
   margin-bottom: 60px;
 }
 .summary2 {
-  color: #30231d;
+  color: #cccccc;
   margin-top: 20px;
   margin-bottom: 60px;
 }
@@ -133,8 +133,8 @@ a:visited, a:hover {
   max-width: 200px;
   margin: 50px 10px 30px 10px;
   padding: 10px;
-  font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  font-family: 'Hind', sans-serif;
+  color: #cccccc;
   background-color: transparent;
   border: 2px solid #f6f1ed;
   border-radius: 3px;
@@ -182,7 +182,7 @@ a:visited, a:hover {
   font-family: 'Hind', sans-serif;
   position: absolute;
   top: 370;
-  color: #30231d;
+  color: #660000;
   background: rgba(1,1,1, 0);
   font-weight: 300;
   padding: 8px 12px;
