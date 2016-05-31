@@ -79,7 +79,7 @@ a:visited, a:hover {
 .content_black {
   position: relative;
   min-height: 60px;
-  background: #660000 no-repeat center center fixed;
+  background: #333333 no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
