@@ -77,10 +77,10 @@ a:visited, a:hover {
 
 .content {
   position: relative;
-  background: #ffffff url(brain_1lr.jpg) no-repeat center top fixed;
+  background: #ffffff url("brain_1lr.jpg") no-repeat center top fixed;
   background-size: initial;
-  min-height: 550px;
-  max-height: 550px;
+  min-height: 340;
+  max-height: 340;
  }
  .content_contact {
   position: relative;
