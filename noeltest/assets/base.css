@@ -135,9 +135,10 @@ a:visited, a:hover {
   margin-bottom: 60px;
 }
 .summary2 {
-  color: #cccccc;
+  color: #333333;
   margin-top: 20px;
   margin-bottom: 60px;
+  font-size: 12px;
 }
 .button, .button:visited, .button-dark {
   display: inline-block;
