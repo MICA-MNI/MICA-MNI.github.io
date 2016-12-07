@@ -52,6 +52,11 @@ a:link,a:active {
   font-weight: 400;
   color: #0B0B3B;
   text-decoration: none;
+} 
+.linkwhite {
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 a:visited, a:hover {
   font-weight: 400;
