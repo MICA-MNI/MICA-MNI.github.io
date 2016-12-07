@@ -64,7 +64,7 @@ a:visited, a:hover {
   text-decoration: underline;
 }
 .img-circle {
-    border-radius: 50%;
+    border-radius: 0%;
 }
 /* LAYOUT */
 .fixed-nav-bar {
