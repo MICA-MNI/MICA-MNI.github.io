@@ -113,8 +113,8 @@ a:visited, a:hover {
 }
 .some-related-articles p {
   color: #666666;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
