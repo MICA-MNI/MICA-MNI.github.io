@@ -29,8 +29,8 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 16px;
-  line-height: 25px;
-  margin-bottom: -20px;
+  line-height: 20px;
+  margin-bottom: -5px;
   color: #000000;
 }
 h3 {
@@ -44,7 +44,7 @@ h3 {
 p{
   font-weight: 300;
   color: #000000;
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 16px;
   line-height: 26px;
 }
@@ -113,8 +113,8 @@ a:visited, a:hover {
 }
 .some-related-articles p {
   color: #666666;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
