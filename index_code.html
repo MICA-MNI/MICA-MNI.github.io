@@ -20,7 +20,6 @@
     <!-- Example responsive navigation menu  -->
     <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
     <ul class="menu-items">
-      <li><a href="#about">ABOUT</a></li>
       <li><a href="#mpc">MPC</a></li>
       <li><a href="#gradients">GRADIENTS</a></li>
       <li><a href="#surfstat">SURFSTAT</a></li>
@@ -30,7 +29,7 @@
   </div>
 </nav>
 
-<section class="content">
+<section class="content2">
   <div class="description">
     <h3></h3>
     <p class="summary2"></p>
@@ -40,20 +39,37 @@
 <section class="some-related-articles">
   </br>
   </br>
-  <h1 id="about">WELCOME</h1>
-  <p>Welcome to the documentation website of the Multimodal Imaging and Connectome Analysis (MICA) Lab codebase.</br> 
+  <h1 id="about">CODEBASE</h1>
+  <p>Thank you for using our tools!</br> 
 </section>
 
 
 
 <section class="some-related-articles">
-  <h1 id="news">MPC </h1>
+  <h1 id="MPC">MPC </h1>
 	<center>
 	
 	<table style="width:100%">
 		<tr>
 			<td style="width:350px; text-align:center">
-			<h2>Here is the MPC documentation</a></p>
+			<h2>MPC: Microstructural profile covariance</h2>
+			<p>
+			The microstructural profile covariance (MPC) framework models human brain networks based on similarity in microstructural profiles sampled in the direction of cortical columns (For details see Paquola et al. 2018 BioRxiv). It can be used on based on an ultra-high-resolution histological reconstruction of post-mortem brains (such as BigBrain) and via myelin-sensitive MRI data (such as the data provided by the HCP).
+			</p>
+			<p>
+			The detailed step by step procedure is provided on the github (click github symbol 	
+			below).</p>
+			<p> 
+			Generate equivolumetric surfaces between the two cortical interfaces 		
+			(using 01_constructSurfaces.sh). 
+			</p>
+			<p>
+			These surfaces are then used for systematic intracortical intensity sampling (using 		
+			02_myelinMaptoSurf.sh). </p>
+			<p>
+			Finally, surfToMPC.m generates MPC martrices that can be analyzed 
+			appropriately. 
+			</p>
 			</td>	
 		</tr>
 		<tr>
