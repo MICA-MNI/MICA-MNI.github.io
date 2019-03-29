@@ -78,6 +78,14 @@ a:visited, a:hover {
   box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.6);
 }
 
+.content2 {
+  position: relative;
+  background: #000000 url(brain_1lr_code.jpg) no-repeat center top fixed;
+  background-size: initial;
+  min-height: 550px;
+  max-height: 550px;
+ }
+ 
 .content {
   position: relative;
   background: #000000 url(brain_1lr.jpg) no-repeat center top fixed;

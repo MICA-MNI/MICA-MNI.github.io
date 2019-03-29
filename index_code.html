@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MICA Lab</title>
+<meta name="description" content="Multimodal Imaging and Connectome Analysis">
+<meta name="author" content="boris@bic.mni.mcgill.ca">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
+<link rel="stylesheet" href="assets/base.css">
+<link rel="stylesheet" href="fixed-navigation-bar.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto:500,400,300,200,100' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
+</head>
+<body>
+
+<nav class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="index_code.html">MICA-CODEBASE</a>
+    <!-- Example responsive navigation menu  -->
+    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+    <ul class="menu-items">
+      <li><a href="#mpc">MPC</a></li>
+      <li><a href="#gradients">GRADIENTS</a></li>
+      <li><a href="#surfstat">SURFSTAT</a></li>
+      <li><a href="#pipelines">PIPELINES</a></li>
+      <li><a href="index.html">>MICA</a></li>
+  </ul>
+  </div>
+</nav>
+
+<section class="content2">
+  <div class="description">
+    <h3></h3>
+    <p class="summary2"></p>
+  </div>
+</section>
+
+<section class="some-related-articles">
+  </br>
+  </br>
+  <h1 id="about">CODEBASE</h1>
+  <p>Thank you for using our tools!</br> 
+</section>
+
+
+
+<section class="some-related-articles">
+  <h1 id="MPC">MPC </h1>
+	<center>
+	
+	<table style="width:100%">
+		<tr>
+			<td style="width:350px; text-align:center">
+			<h2>MPC: Microstructural profile covariance</h2>
+			<p>
+			The microstructural profile covariance (MPC) framework models human brain networks based on similarity in microstructural profiles sampled in the direction of cortical columns (For details see Paquola et al. 2018 BioRxiv). It can be used on based on an ultra-high-resolution histological reconstruction of post-mortem brains (such as BigBrain) and via myelin-sensitive MRI data (such as the data provided by the HCP).
+			</p>
+			<p>
+			The detailed step by step procedure is provided on the github (click github symbol 	
+			below).</p>
+			<p> 
+			Generate equivolumetric surfaces between the two cortical interfaces 		
+			(using 01_constructSurfaces.sh). 
+			</p>
+			<p>
+			These surfaces are then used for systematic intracortical intensity sampling (using 		
+			02_myelinMaptoSurf.sh). </p>
+			<p>
+			Finally, surfToMPC.m generates MPC martrices that can be analyzed 
+			appropriately. 
+			</p>
+			</td>	
+		</tr>
+		<tr>
+			<td style="width:350px; text-align:center">
+			<a href="http://github.com/MICA-MNI/micaopen/MPC" target="_blank">
+  			<img src="assets/github.gif" width="40px"/>	
+			</td>	
+		</tr>
+		
+	</table>
+	</center>	
+	
+</section>	
+	
+<section class="some-related-articles">
+  <div class="description">
+   <h3 id="gradients">GRADIENTS</h3>
+  
+  <center>
+	<table style="width:100%">
+		<tr>
+			<td style="width:350px; text-align:center">
+			<h2>Here is the gradient tool documentation</a></p>
+			</td>	
+		</tr>
+		<tr>
+			<td style="width:350px; text-align:center">
+			<a href="http://github.com/MICA-MNI/micaopen/diffusion_map_embedding" target="_blank">
+  			<img src="assets/github.gif" width="40px"/>	
+			</td>	
+		</tr>
+	</table>
+	</center>	
+  
+</section>
+  
+
+<section class="some-related-articles">
+  <div class="description">
+    <h3 id="surfstat">SURFSTAT</h3>
+	  
+    <center>
+	<table style="width:100%">
+		<tr>
+			<td style="width:350px; text-align:center">
+			<h2>Here is the surfstat documentation</a></p>
+			</td>	
+		</tr>
+		<tr>
+			<td style="width:350px; text-align:center">
+			<a href="http://github.com/MICA-MNI/micaopen/surfstat_chicago" target="_blank">
+  			<img src="assets/github.gif" width="40px"/>	
+			</td>	
+		</tr>
+	</table>
+	</center>	
+  	
+  </div>
+  </br>
+  </br>
+  </br>
+  </br>
+</section>
+
+
+<section class="some-related-articles">
+  <div class="description">
+  <h1 id="funding">FUNDING</h1>
+	<p>OUR RESEARCH IS KINDLY SUPPORTED BY</p>
+	</br>
+	</br>
+	<center>  	
+	<table style="width:700px">
+  		<tr>
+    		<td style="width:100px">
+			<img src="assets/sickkids.png" width="80px"/>	
+		</td>
+		<td style="width:100px">
+			<img src="assets/cihr.jpg" width="80px"/>
+		</td>
+		<td style="width:100px">
+			<img src="assets/qbin.jpg" width="80px"/>
+		</td>	
+		<td style="width:100px">	
+			<img src="assets/neuro_final_400.jpg" width="80px"/>
+		</td>
+		<td style="width:100px">	
+			<img src="assets/nserc.png" width="80px"/>
+		</td>	
+		<td style="width:100px">	
+			<img src="assets/frqs.png" width="80px"/>
+		</td>		
+		</tr>	
+	</table>
+    </div>
+</section>
+
+<section class="content_contact">
+  <div class="description">
+    <h3 id="contact">CONTACT</h3>
+    <p class="summary">Multimodal Imaging and Connectome Analysis Lab</br>
+    Montreal Neurological Institute and Hospital</br>
+    3801 University Street, Montreal, QC, H3A 2B4, Canada</br>
+    <a class="onblue" href="mailto:boris.bernhardt@mcgill.ca">boris.bernhardt@mcgill.ca</a></br>
+    Phone: 514 398 3579</br>
+    </p>
+  </br>
+  </div>
+</section>
+
+<section class="content_black">
+</br>
+  <ul class="menu-items-social">
+  <li><a href="http://github.com/MICA-MNI/" target="_blank"><img src="assets/git_bw_50.gif" height="30px" /></a></li>
+  <li><a href="https://twitter.com/BorisBernhardt/" target="_blank"><img src="assets/twitter_bw_50.gif" height="30px" /></a></li>
+  <li><a href="http://www.facebook.com/McConnellBrainImagingCentre/" target="_blank"><img src="assets/fb_bw_50.gif" height="30px" /></a></li>
+  <li><a href="https://www.researchgate.net/profile/Boris_Bernhardt" target="_blank"><img src="assets/rg_icon.gif" height="30px" /></a></li>
+  </ul>
+</br>
+</section>
+</body>
+</html>
