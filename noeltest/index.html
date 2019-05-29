@@ -72598,9 +72598,9 @@ div.jsplot_figure  {
 }</style>
 <style type="text/css">body  {
 
-    background-color:#333;
+    background-color:#444;
     font-family:Helvetica Neue, sans-serif;
-    font-size:10pt;
+    font-size:8pt;
     text-align:center;
     overflow:hidden;
 
@@ -72822,7 +72822,7 @@ a:visited  {
     background:rgba(255,255,255,.2);
     max-width:400px;
     display:none;
-    font-size:12pt;
+    font-size:10pt;
     color:white;
     transition:all .3s;
     transition-timing-function:ease;
@@ -72872,7 +72872,7 @@ a:visited  {
  *************************************************/
 #colorlegend  {
 
-    width:30vw;
+    width:20vw;
     position:absolute;
     bottom:30px;
     left:0;
@@ -72897,7 +72897,7 @@ a:visited  {
 
 #colorlegend-colorbar  {
 
-    height: 4vh;
+    height: 2vh;
     width:100%;
     display:block;
     text-align:right;
@@ -72962,7 +72962,7 @@ a:visited  {
 
 #xd-vmin-container, #xd-vmax-container, #yd-vmin-container, #yd-vmax-container  {
 
-    font-size:2.5vmin;
+    font-size:1.5vmin;
     color: white;
 
 }
@@ -73549,6 +73549,7 @@ figure = new jsplot.W2Figure();
 viewer = figure.add(mriview.Viewer, "main", true);
 dataviews = dataset.fromJSON({"views": [{"data": ["__b7755d47bf16d265"], "state": null, "attrs": {"priority": 1}, "desc": "", "cmap": ["hot"], "vmin": [7.313769000000001], "vmax": [60.22100999999999], "name": "GEO "}, {"data": ["__84d425a3c3da509e"], "state": null, "attrs": {"priority": 1}, "desc": "", "cmap": ["Greys_r"], "vmin": [0.06649097], "vmax": [1.2939659999999973], "name": "MPC "}, {"data": ["__51517e7e0c28e72f"], "state": null, "attrs": {"priority": 1}, "desc": "", "cmap": ["PuBu_r"], "vmin": [0.0], "vmax": [7354.728999999987], "name": "SC "}, {"data": ["__9635085ccef71ae4"], "state": null, "attrs": {"priority": 1}, "desc": "", "cmap": ["YlOrRd"], "vmin": [0.02833054], "vmax": [0.11880769999999999], "name": "DEEP"}], "data": {"__51517e7e0c28e72f": {"split": 2562, "frames": 1, "name": "__51517e7e0c28e72f", "subject": "S1_ds", "min": 0.0, "max": 12206.0, "raw": false}, "__b7755d47bf16d265": {"split": 2562, "frames": 1, "name": "__b7755d47bf16d265", "subject": "S1_ds", "min": 2.4324, "max": 63.756, "raw": false}, "__84d425a3c3da509e": {"split": 2562, "frames": 1, "name": "__84d425a3c3da509e", "subject": "S1_ds", "min": 0.049946, "max": 1.4323, "raw": false}, "__9635085ccef71ae4": {"split": 2562, "frames": 1, "name": "__9635085ccef71ae4", "subject": "S1_ds", "min": 0.019121, "max": 0.12953, "raw": false}}, "images": {"__51517e7e0c28e72f": ["data/__51517e7e0c28e72f_0.png"], "__b7755d47bf16d265": ["data/__b7755d47bf16d265_0.png"], "__84d425a3c3da509e": ["data/__84d425a3c3da509e_0.png"], "__9635085ccef71ae4": ["data/__9635085ccef71ae4_0.png"]}});
 viewer.addData(dataviews);
+sock = new Websock();
 
 }
 });
