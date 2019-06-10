@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>MYBRAINMAP - IN VIVO MODELS OF CORTICAL WIRING</title>
+<title>MYBRAINMAP - NEW IN VIVO MODELS OF CORTICAL WIRING IN EPILEPSY</title>
 <meta name="description" content="MYBRAINMAP - IN VIVO MODELS OF CORTICAL WIRING">
 <meta name="author" content="boris@bic.mni.mcgill.ca">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,7 +17,7 @@
 <nav class="fixed-nav-bar">
   <div id="menu" class="menu">
   <center>
-    <p>MYBRAINMAP - IN VIVO MODELS OF CORTICAL WIRING</a>
+    <p>MYBRAINMAP - NEW IN VIVO MODELS OF CORTICAL WIRING IN EPILEPSY</a>
     </p>
     </center>
   </div>
@@ -52,26 +52,49 @@ We will systematically translate these models to patients with drug-resistant fo
   <table style="width:100%">
 		<tr>
 			<td style="width:350px; text-align:left">
-			<h2>MICROSTRUCTURAL PROFILE COVARIANCE</h2> 
+			<h2>MICROSTRUCTURAL PROFILE COVARIANCE (MPC)</h2> 
 			<p>
 Prior studies in non-human primates and other species have demonstrated that microstructural similarity is the most important predictor of inter-areal connectivity (the “structural model of connectivity”). To leverage these insights for in vivo connectivity modelling, the PIs team developed and validated a new approach to derive cortico-cortical networks from similarity cortical microstructure profiles (i.e., snapshots of cellular layering in cortical areas, derived from myelin-sensitive MRI). These findings suggest that microstructural similarity may predict existing functional connections between areas and boost connectome-informed simulations. 
 			</p>
+			<figure>
+				<img class="img-circle" src="assets/mpc_lr.png" width="1000px"/>
+				<figcaption><p><b>MPC.</b> Correlation analysis between intracortical profiles of myelin sensitive MR data can be used to derive large-scale networks in vivo. The method is validated with postmortem histology and replicable across multiple MRI contrasts. See: Paquola et al. (2019) PLoS Biology for a description of the methods.   
+				</p>
+				</figcaption> 
+			</figure>
+			</br>
+			</br>
 			</td>	
 		</tr>
 		<tr>
 			<td style="width:350px; text-align:left">
-			<h2>GEODESIC DISTANCE</h2> 
+			<h2>GEODESIC DISTANCE (GD)</h2> 
 			<p>
 This feature captures the spatial proximity between areas and serves as a proxy of intracortical horizontal connectivity between adjacent regions.  In the context of seizure spread, intracortical propagation of activity has long been recognized, and is thought to be a key driver of seizure evolution but also of potential mechanisms that could relate to seizure termination and modulation. 
 			</p>
+			<figure>
+				<img class="img-circle" src="assets/distance_lr.png" width="1000px"/>
+				<figcaption><p><b>GD.</b> Systematic mapping of geodesic distances captures proximity of different areas. GD calcuations operate in the manifold of tissue (i.e. GM and WM). See: Hong et al. (2016) Neurology and Hong et al (2018) Cerebral Cortex for a description of the methods.
+				</p>
+				</figcaption> 
+			</figure>
 			</td>	
 		</tr>
 		<tr>
 			<td style="width:350px; text-align:left">
-			<h2>ADVANCED TRACTORGAPHY</h2> 
+			<h2>ADVANCED TRACTORGAPHY (DWI) </h2> 
 			<p>
-Advances in diffusion MRI acquisition and modelling improve validity of tractographic reconstructions compared to “tensor” analysis of standard sequences. These include the use of multi-shell diffusion acquisitions with high angular and spatial resolutions and to harness spherical deconvolution techniques that provide a more accurate modeling of crossing fibers (present in >80% of white matter). Additional advances in tractographic algorithms, including the use of anatomically constrained tractography and fiber tracking from the cortical interface, reduce tracking uncertainty and false positives. In epilepsy neuroimaging, diffusion acquisitions have so far remained rather standard in most of the published literature, often limited to 30-60 directions, and models were generally restricted to the tensor (with only very few exceptions). Better acquisitions and biologically more meaningful models of diffusivity are expected to more accurately estimate white matter connectivity. </p>
+Advances in diffusion MRI acquisition and modelling improve validity of tractographic reconstructions compared to “tensor” analysis of standard sequences. These include the use of multi-shell diffusion acquisitions with high angular and spatial resolutions and to harness spherical deconvolution techniques that provide a more accurate modeling of crossing fibers (present in >80% of white matter). Additional advances in tractographic algorithms, including the use of anatomically constrained tractography and fiber tracking from the cortical interface, reduce tracking uncertainty and false positives. In epilepsy neuroimaging, diffusion acquisitions have so far remained rather standard in most of the published literature, often limited to 30-60 directions, and models were generally restricted to the tensor (with only very few exceptions). Better acquisitions and biologically more meaningful models of diffusivity are expected to more accurately estimate white matter connectivity. 
+			</p>
+			<figure>
+				<img class="img-circle" src="assets/dwi_lr.png" width="1000px"/>
+				<figcaption><p><b>DWI.</b> Multi-shell MRI with high angular resolution will be used to reconstruct long-range white matter tracts systematically and to build cortico-cortical connectomes. 
+				</p>
+				</figcaption> 
+			</figure>
+			
 			</td>	
+			
 		</tr>
  </table>
   </center>
