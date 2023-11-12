@@ -189,6 +189,13 @@ a:visited, a:hover {
 }
 /* SLIDESHOW */
 
+img:hover {
+  opacity: 0.5;
+}
+
+.mybox {
+  opacity: 0.3;
+}
 
 .css-slideshow{
   position: relative;
