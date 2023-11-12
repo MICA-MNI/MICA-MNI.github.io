@@ -21,28 +21,35 @@ h1, h2 {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 24px;
   line-height: 46px;
   color: #0B0B3B;
 }
 h2 {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: -20px;
-  color: #0B0B3B;
+  color: #FFFFFF;
 }
 h3 {
   font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 24px;
   line-height: 33px;
   margin-bottom: -10px;
 }
-p {
+h4 {
   font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: -20px;
+  color: #0B0B3B;
+}
+p {
+  font-weight: 200;
   color: #1F1F1F;
   margin: 20px 0;
   font-size: 16px;
@@ -56,17 +63,17 @@ h4 {
   line-height: 24px;
 }
 a:link,a:active {
-  font-weight: 400;
+  font-weight: 200;
   color: #0B0B3B;
   text-decoration: none;
 } 
 .linkwhite {
-  font-weight: 400;
+  font-weight: 200;
   color: #FFFFFF;
   text-decoration: none;
 }
 a:visited, a:hover {
-  font-weight: 400;
+  font-weight: 200;
   color: #0B0B3B;
   text-decoration: underline;
 }
@@ -80,7 +87,7 @@ a:visited, a:hover {
 
 .content2 {
   position: relative;
-  background: #000000 url(brain_1lr_code.jpg) no-repeat center top fixed;
+  background: #FFFFFF url(brain_1lr_code.jpg) no-repeat center top fixed;
   background-size: initial;
   min-height: 550px;
   max-height: 550px;
@@ -88,14 +95,14 @@ a:visited, a:hover {
  
 .content {
   position: relative;
-  background: #000000 url(brain_1lr.jpg) no-repeat center top fixed;
+  background: #FFFFFF url(brain_1lr.jpg) no-repeat center top fixed;
   background-size: initial;
   min-height: 550px;
   max-height: 550px;
  }
  .content_contact {
   position: relative;
-  background: #0B0B3B no-repeat center center fixed;
+  background: #CCCCCC no-repeat center center fixed;
   background-size: cover;
  }
 .content_black {
@@ -141,17 +148,17 @@ a:visited, a:hover {
   text-decoration: underline;
 }
 .summary {
-  color: #d9dee2;
+  color: #FFFFFF;
   margin-top: 40px;
   margin-bottom: 60px;
 }
 .summary2 {
-  color: #d9dee2;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 60px;
 }
 .summary3 {
-  color: #d9dee2;
+  color: #000000;
   margin-top: 20px;
   margin-bottom: 60px;
   font-size: 12px;
