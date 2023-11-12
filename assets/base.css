@@ -17,7 +17,7 @@ body {
   color: #2e2e2e;
   text-align: center;
 }
-h1, h2 {
+h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -26,28 +26,27 @@ h1 {
   line-height: 46px;
   color: #0B0B3B;
 }
+h3 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 46px;
+  color: #FFFFFF;
+}
 h2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: -20px;
+  color: #0B0B3B;
+}
+h4 {
   font-weight: 300;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: -20px;
   color: #FFFFFF;
 }
-h3 {
-  font-family: 'Roboto', sans-serif;
-  color: #FFFFFF;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 33px;
-  margin-bottom: -10px;
-}
-h4 {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: -20px;
-  color: #0B0B3B;
-}
+
 p {
   font-weight: 200;
   color: #1F1F1F;
@@ -55,13 +54,7 @@ p {
   font-size: 16px;
   line-height: 26px;
 }
-h4 {
-  font-weight: 300;
-  color: #1F1F1F;
-  margin: 20px 0;
-  font-size: 12px;
-  line-height: 24px;
-}
+
 a:link,a:active {
   font-weight: 200;
   color: #0B0B3B;
