@@ -87,6 +87,12 @@ a:visited, a:hover {
   background: # no-repeat center center fixed;
   background-size: cover;
  }
+ .content_blue {
+  position: relative;
+  min-height: 60px;
+  background: #330066 no-repeat center center fixed;
+  background-size: cover;
+ }
 .content_black {
   position: relative;
   min-height: 60px;
@@ -117,6 +123,9 @@ a:visited, a:hover {
   margin-bottom: 20px;
 }
 
+
+
+
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
   color: #999999;
   transition: color 0.1s ease;
@@ -125,6 +134,23 @@ a:visited, a:hover {
   color: #999999;
   transition: color 0.3s ease;
 }
+
+
+.content_blue p {
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.content_blue h2 a:link, .some-related-articles h2 a:visited  {
+  color: #333333;
+  transition: color 0.1s ease;
+}
+.content_blue h2 a:hover {
+  color: #333333;
+  transition: color 0.3s ease;
+}
+
 
 
 /* SPECIAL */
