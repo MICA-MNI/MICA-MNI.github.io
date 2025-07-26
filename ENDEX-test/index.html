@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Epilepsy Neuroimaging Data Exchange</title>
-<meta name="description" content="ENDEX Epilepsy">
+<title>ENDEX - EPILEPSY NEUROIMAGING DATA EXCHANGE</title>
+<meta name="description" content="ENDEX EPILEPSY NEUROIMAGING DATA EXCHANGE">
 <meta name="author" content="boris@bic.mni.mcgill.ca">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
@@ -13,19 +13,29 @@
 <link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
 </head>
 <body>
+	
 
 <nav class="fixed-nav-bar">
   <div id="menu" class="menu">
+  <center>
+   <div id="menu" class="menu">
     <a class="sitename" href="index.html">ENDEX</a>
     <!-- Example responsive navigation menu  -->
     <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
     <ul class="menu-items">
-      <li><a href="#about">WELCOME</a></li>
-      <li><a href="#contact">CONTACT</a></li>
-      <li><a href="http://endex.bic.mni.mcgill.ca/owncloud" target="_blank">LOGIN</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#project">PROJECT</a></li>
+      <li><a href="#team">TEAM</a></li>
+     <li><a href="#data">DATA</a></li>
+      <li><a href="#contact">PARTICIPATE</a></li>
+      <li><a href="#FR">FR</a></li>
   </ul>
   </div>
+    </p>
+    </center>
+  </div>
 </nav>
+	
 
 <section class="content">
   <div class="description">
@@ -34,70 +44,270 @@
 </section>
 
 <section class="some-related-articles">
+  <center>
+  <h1 id="about">ABOUT</h1>
+<p> Early diagnosis and effective treatment of uncontrolled epilepsy are currently the most pressing clinical problems that entail distinct largely unresolved challenges along the course of the disorder. </p>
+	</br>
+	
+<p>To fill these gaps, we launched the Epilepsy Neuroimaging Data EXchange (ENDEX) as a one-of-its kind initiative to collect, aggregate, analyze and share neuroimaging data for the identification and validation of useful, robust, and non-invasive neuroimaging biomarkers of epilepsy. </p>
+</br>
+
+<p>Our project involves an ongoing collection of high definition neuroimaging (3T MRI, 7T MRI, and sometimes PET) data in patients with epilepsy, their family members as well as healthy controls together with the tracking of standardized clinical and cognitive phenotypes.  Participants are followed longitudinally, both across the lifespan and their clinical course.</p>
+</br> 
+
+<p>Participating sites adopt best practices in neuroimaging of epilepsy. In particular, we have adopted ILAE-HARNESS protocols for optimized structural imaging of epileptic patients and have furthermore incoproated cutting-edge multiband functional MRI and diffusion MRI sequences for connectome analysis and microstructural modelling. </p>
+</br> 	 	 
+<p>Acquired data and derivatives are stored in standardized (BIDS) format, and data processing adopts several cutting edge open access workflows, in particular <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a>, <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a>, and <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> in containerized form.</p>
+</br> 
+<p>Our project is being developed under an open science framework. Benchmak datasets in healthy individuals have already been released to the commuity in phase 1. In phase 2, we're sharing additionally processed derivatives from patients and controls with the broader neuroimaging and epilepsy research community, for transparent, reproducible, and maximally impactful research and biomarker discovery. </p>
+</br> 
+<p> Our project is closely aligned with other large-scale 7T data aquisition initiatives, notably the <a href="https://open-mpn.biobank.mcgill.ca" target="blank">Montreal Paris Neurobank</a> and the <a href="https://q1k.ca/en/"target="blank">Q1K</a> project, to situate epilepsy related changes in the context of normative lifespan processes and the broader landscape of neurodevelopmental indications. </p>
+
+<h1 id="project">PROJECT</h1>
+  <table style="width:100%">
+		<tr>
+			<td style="text-align:center">
+			<h2>SITES</h2> 
+			<p>
+			In its first phase, ENDEX is launched as a multisite initiative with the following partner sites:</br> 
+			Montreal Neurological Institute and Hospital (The Neuro, main site)</Br>
+			CHU St Justine Montreal (CHUSJ)</Br>
+			CHU Montreal (CHUM)</Br>
+			Montreal Childrens' Hospital (MCH)</Br>
+			BC Childrens' Hospital (BCCH)</Br>
+			<img src="assets/sites.png" width="800px" /></br>
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="width:350px; text-align:center">
+			<h2>IMAGING DATA</h2> 
+			<p>
+			The following contrasts are routinely acquired and processed in our participants:</br>
+			3D Structural Imaging (T1w, FLAIR) based on ILAE-Harness recommdations previously published by our team (see <a href="https://pubmed.ncbi.nlm.nih.gov/31135062/" target="blank">this</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/34526291/" target="blank">this</a> paper))</br>
+			Myelin-sensitive 3D T1 relaxometry (for an application in epilepsy, see <a href="https://pubmed.ncbi.nlm.nih.gov/28583883/" target="blank">this</a>)</br>
+			Multiband functional MRI (at rest and during memory and language tasks) </br>
+			Multiband diffusion MRI for tractography and microstructural modelling</br>
+			Arterial Spin Labeling for the mapping of tissue perfusion</br> 
+			At the Neuro site, eligible participants furthermore undergo an additional 7T scan </br> 
+			</br>
+			</br>
+			Benchmark datasets in healthy participants have been previously shared with the community. 
+			</br>
+			</br>
+			Please visit <a href="https://osf.io/mhq3f/" target="_blank">data</a> and <a href="https://www.nature.com/articles/s41597-025-04863-7" target="blank">paper</a> for the 7T release. 	</br>
+			</br>		
+			<img src="assets/data_7T.png" width="700px" /></br>
+			</p>
+			</br>
+			</br>
+			For the 3T release, please see <a href="https://osf.io/j532r/">data</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/36109562/">paper</a> here
+			</br>		
+			<img src="assets/data_3T.png" width="700px" /></br>
+			</p>
+			</td>	
+		</tr>
+		<tr>
+			<td style="width:350px; text-align:center">
+			<h2>IMAGE PROCESSING</h2> 
+			<p>
+All imaging data are routinely processed with <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a> for multimodal processing and connectome generation, <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a> for hippocampal mapping, and <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> for normative modelling and participant specific deviation mapping.</p>
+</br> 
+			
+			<img src="assets/processing.png" width="800px" /></br>
+
+
+ 			</p>
+			</td>	
+		</tr>
+ </table>
+ 
+ 
+ <h1 id="venue"> TEAM</h1>
+  <table style="width:100%">
+		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/bo.jpg" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Boris Bernhardt, PhD</br>
+	    		 	Associate Professor of Neurology and Neurosurgery</br>
+	    		 	Canada Research Chair in Cognitive Neuroinformatics</br>
+					Montreal Neurological Institute and Hospital, McGill University</br>			
+					<a class="onblue" href="mailto:boris.bernhardt@mcgill.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+  		
+  		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/dewi.jpg" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Dewi Schrader, MHSc, MBBS, FRCPC</br>
+	    		 	Associate Professor and Pediatric Neurologist</br>
+	    		 	BC Children's Hospital, UBC </br>			
+					<a class="onblue" href="mailto:dschrader@cw.bc.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+
+		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/al.jpg" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Alexander Weil, MD , FRCSC , FACS</br>
+	    		 	Associate Professor and Pediatric Neurosurgeon</br>
+	    		 	Department of Surgery, University of Montreal </br>			
+					<a class="onblue" href="mailto:alexander.weil.hsj@ssss.gouv.qc.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+  		
+  		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/roy.jpg" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Roy Dudley, MD, FRCSC, FACS, PhD</br>
+	    		 	Associate Professor and Pediatric Neurosurgeon</br>
+	    		 	Montreal Children's Hospital, McGill University </br>			
+					<a class="onblue" href="mailto:alexander.weil.hsj@ssss.gouv.qc.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+  		
+		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/aris.jpg" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Aristides Hadjinicolaou, MD, FRCSP</br>
+	    		 	Assistant Professor, Neurologist, Pediatric Epileptologist</br>
+	    		 	Montreal Children's Hospital, McGill University </br>			
+					<a class="onblue" href="mailto:aris.hadjinicolaou.med@ssss.gouv.qc.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+
+		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/neda.png" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Neda Bernasconi, MD, PhD</br>
+	    		 	Professor of Neurology and Neurosurgery</br>
+	  				Montreal Neurological Institute and Hospital, McGill University</br>						
+					<a class="onblue" href="mailto:neda@bic.mni.mcgill.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+		
+		<tr>
+			
+    		<td style="width:160px" valign="top">
+    		 	<img class="img-circle" src="assets/andrea.png" width="150px"/>
+    		</td> 
+    		<td style="width:10px" valign="top">
+    		</td>
+    		<td style="width:320px" valign="top">
+    		 	   <p class="summary3">Andrea Bernasconi, MD</br>
+	    		 	Professor of Neurology and Neurosurgery</br>
+	  				Montreal Neurological Institute and Hospital, McGill University</br>						
+					<a class="onblue" href="mailto:andrea@bic.mni.mcgill.ca">email</a></br>
+			</p>
+    		</td>
+  		</tr>
+
+
+ </table>		
+ 
+ <h1 id="register"> PARTICIPATE</h1>
+  <table style="width:100%">
+		<tr>
+			<td style="width:350px; text-align:center">
+				<p>
+				Please get in touch <a href="mailto:multimodal-studies.neuro@mcgill">here</a> if you are interested in the study
+				</p>
+			</td>	
+		</tr>
+	
+ </table>	
+ 
+
+ 
+ 
+ <h1 id="sponsors"> SPONSORS/FUNDERS</h1>
+ 
+  <table style="width:100%" >
+				
+		
+		<td style="width:100px" text-align:center">	
+			<center>
+				<img src="assets/cihr.jpg" width="80px"/>
+			</center>
+		</td>
+
+		<td style="width:100px" text-align:center">	
+			<center>
+				<img src="assets/sickkids.png" width="80px"/>
+			</center>
+		</td>
+
+		<td style="width:100px" text-align:center">	
+			<center>
+				<img src="assets/qbin.jpg" width="80px"/>
+			</center>
+		</td>
+		
+		<td style="width:100px" text-align:center">	
+			<center>
+				<img src="assets/neuro_final_400.jpg" width="80px"/>
+			</center>
+		</td>
+				
+				
+	
+ </table>	
+ 	
   </br>
   </br>
-  <h1 id="about">ENDEX - Epilepsy Neuroimaging Data Exchange</h1>
   <p>
-  Early diagnosis and effective treatment of uncontrolled epilepsy are currently the most pressing clinical problems that entail distinct largely unresolved challenges along the course of the disorder: 
-  </br>
- </br>
-  Firstly, despite the ability of MRI to diagnose epileptogenic lesions, imaging markers of drug-resistance are currently not known. As a result, patients often undergo decade-long drug trials before being referred to tertiary centers for pre- surgical investigation. 
-  </br>
- </br>
-  Secondly, in surgical candidates, as much as 50% present with only subtle lesions that remain undetected through standard radiological analysis. The lack of MRI criteria to localize the lesion weights heavily against surgery. Though quantitative MRI assessments have improved detection of subtle lesions, these tools are available only in specialized research environments, and have not been scaled nor validated to operate across sites. </br>
-</br>
-  Thirdly, a subgroup of patients who undergo surgery will nevertheless experience seizure recurrence. Although it is generally believed that studying the anatomical markup of an individual patient may lend markers of outcome, patient-to-patient variability likely impacts prognosis, challenging the discovery of robust predictors of outcome.
-   </br>
-    </br>
-To increase the sensitivity of MRI in detecting subtle structural and functional alterations, validate findings across sites, and address individual variability, 16 leading epilepsy neuroimaging research centers have initiated the Epilepsy Neuroimaging Data Exchange (ENDEX). The overall goal of this grass-root consortium, the first open-access initiative in epilepsy, is to fruitfully aggregate and openly share neuroimaging datasets along with phenotypic information from at least 2,000 patients with various epileptic syndromes and 1,000 age- and sex-matched healthy controls.
-</p>
+  <center>
+  Follow us on twitter</br>
+  <a href="https://twitter.com/MontrealAutism/" target="_blank">
+  <img src="assets/twitter_logo_grey.jpg" width="60px" /></a>
+  </center>
   </br>
   </br>
-  <h1 id="about">PARTICIPATING SITES</h1>
-- George Washington University, Washington, USA</br>
-- Mayo Clinic, Rochester, USA</br>
-- McGill University, Montreal, Canada</br> 
-- Medical University of South Carolina, USA</br> 
-- New York University, New York, USA</br> 
-- The University of Melbourne, Australia </br>
-- University of California at San Diego, California, USA</br> 
-- University of California, San Francisco, USA</br> 
-- University of Calgary, Canada</br>
-- University of Campinas, Brazil</br>
-- University of Montreal, Montreal, Canada</br>
-- UCL Institute of Neurology, UK</br>
-- University of Pittsburgh Medical Center, Pennsylvania, USA</br>
-- University of Washington, St. Louis, Missouri, USA</br>
-- University of Wisconsin School of Medicine, USA</br>
-- Vanderbilt University, Tennessee, USA</br>
   </br>
-  </p>
-
-  <h1 id="about">FUNDING</h1>
-  <p>We gratefully acknowledge the following sources of funding:
-  </br>
-  </br>
-  <img src="assets/qbin.png" width="100px"/>	
-  <img src="assets/cihr.png" width="100px"/>	
-  </br>
-  </p>
+  </center>
+  </p<
 </section>
 
 
-<section class="content_contact">
-  <div class="description">
-    <h1 id="contact">CONTACT</h1>
-    Montreal Neurological Institute and Hospital</br>
-    3801 University Street, Montreal, QC, H3A 2B4, Canada</br>
-    <a class="onblue" href="mailto:andrea@bic.mni.mcgil.ca">andrea@bic.mni.mcgil.ca</a></br>
-    </p>
-  </br>
-  </div>
-</section>
+
 <section class="content_black">
-</br>
-  <ul class="menu-items-social">
-  <li><a href="http://github.com/NOEL-MNI" target="_blank"><img src="assets/git_bw_50.gif" height="30px" /></a></li>
+ 
   </ul>
 </br>
 </section>

@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Hind', sans-serif;
   background-color: #ffffff;
-  color: #333333;
+  color: #000000;
   text-align: left;
 }
 h1, h2 {
@@ -24,18 +24,18 @@ h1 {
   font-weight: 500;
   font-size: 24px;
   line-height: 46px;
-  color: #660000;
+  color: #999999;
 }
 h2 {
   font-weight: 400;
   font-size: 16px;
-  line-height: 25px;
-  margin-bottom: -20px;
-  color: #660000;
+  line-height: 20px;
+  margin-bottom: -5px;
+  color: #000000;
 }
 h3 {
   font-family: 'Hind', sans-serif;
-  color: #666666;
+  color: #000000;
   font-weight: 400;
   font-size: 21px;
   line-height: 33px;
@@ -43,8 +43,8 @@ h3 {
 }
 p{
   font-weight: 300;
-  color: #333333;
-  margin: 20px 0;
+  color: #000000;
+  margin: 10px 0;
   font-size: 16px;
   line-height: 26px;
 }
@@ -54,19 +54,19 @@ ul{
 }
 li{
   font-weight: 300;
-  color: #333333;
+  color: #000000;
   margin: 20px 0;
   font-size: 16px;
   line-height: 26px;
 }
 a:link,a:active {
   font-weight: 400;
-  color: #660000;
+  color: #330066;
   text-decoration: none;
 }
 a:visited, a:hover {
   font-weight: 400;
-  color: #990000;
+  color: #330066;
   text-decoration: underline;
 }
 
@@ -77,10 +77,10 @@ a:visited, a:hover {
 
 .content {
   position: relative;
-  background: #ffffff url("brain_1lr.jpg") no-repeat center top fixed;
+  background: #330066 url("image_start-edit.png") no-repeat center top fixed;
   background-size: initial;
-  min-height: 500;
-  max-height: 500;
+  min-height: 480px;
+  max-height: 480px;
  }
  .content_contact {
   position: relative;
@@ -90,7 +90,7 @@ a:visited, a:hover {
 .content_black {
   position: relative;
   min-height: 60px;
-  background: #cccccc no-repeat center center fixed;
+  background: #ffffff no-repeat center center fixed;
   background-size: cover;
  }
 .description, .some-related-articles {
@@ -104,21 +104,29 @@ a:visited, a:hover {
   text-align: left;
 }
 .some-related-articles {
-  color: #333333;
+  color: #666666;
 }
 .some-related-articles h1 {
-  color: #660000;
+  color: #330066;
   margin-top: 60px;
   text-transform: uppercase;
 }
+.some-related-articles p {
+  color: #666666;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 .some-related-articles h2 a:link, .some-related-articles h2 a:visited  {
-  color: #660000;
+  color: #999999;
   transition: color 0.1s ease;
 }
 .some-related-articles h2 a:hover {
-  color: #333333;
+  color: #999999;
   transition: color 0.3s ease;
 }
+
+
 /* SPECIAL */
 .onblue:link {
   color: #333333;
