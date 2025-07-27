@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>ENDEX - EPILEPSY NEUROIMAGING DATA EXCHANGE</title>
-<meta name="description" content="ENDEX EPILEPSY NEUROIMAGING DATA EXCHANGE">
-<meta name="author" content="boris@bic.mni.mcgill.ca">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
-<link rel="stylesheet" href="assets/base.css">
-<link rel="stylesheet" href="fixed-navigation-bar.css">
-<link href='https://fonts.googleapis.com/css?family=Hind:400,500,600,300,700' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
+	<meta charset="utf-8">
+	<title>ENDEX - EPILEPSY NEUROIMAGING DATA EXCHANGE</title>
+	<meta name="description" content="ENDEX EPILEPSY NEUROIMAGING DATA EXCHANGE">
+	<meta name="author" content="boris@bic.mni.mcgill.ca">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
+	<link rel="stylesheet" href="assets/base.css">
+	<link rel="stylesheet" href="fixed-navigation-bar.css">
+	<link href='https://fonts.googleapis.com/css?family=Hind:400,500,600,300,700' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
 </head>
 <body>
 	
@@ -24,9 +24,9 @@
     <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
     <ul class="menu-items">
       <li><a href="#about">ABOUT</a></li>
-      <li><a href="#project">PROJECT</a></li>
-      <li><a href="#team">TEAM</a></li>
+      <li><a href="#project">SITES</a></li>
      <li><a href="#data">DATA</a></li>
+     <li><a href="#team">TEAM</a></li>
       <li><a href="#participate">PARTICIPATE</a></li>
       <li><a href="#FR">FR</a></li>
   </ul>
@@ -44,91 +44,112 @@
 </section>
 
 <section class="some-related-articles">
-  <center>
-  <h1 id="about">ABOUT</h1>
-<p> Early diagnosis and effective treatment of uncontrolled epilepsy are currently the most pressing clinical problems that entail distinct largely unresolved challenges along the course of the disorder. </p>
-	</br>
+  <h1 id="about" style="text-align:center;">ABOUT</h1>
+  <p style="text-align:center;">
+    Early diagnosis and effective treatment of uncontrolled epilepsy are currently the most pressing clinical problems that entail distinct, largely unresolved challenges along the course of the disorder.
+
+  <br><br>
+	  
+To fill these gaps, we launched the Epilepsy Neuroimaging Data EXchange (ENDEX) as a one-of-its-kind initiative to collect, aggregate, analyze, and share neuroimaging data for the identification and validation of useful, robust, and non-invasive neuroimaging biomarkers of epilepsy.
+
+  <br><br>
+	  
+Our project involves an ongoing collection of high-definition neuroimaging (3T MRI, 7T MRI, and sometimes PET) data in patients with epilepsy, their family members, as well as healthy controls, together with the tracking of standardized clinical and cognitive phenotypes. Participants are followed longitudinally, both across the lifespan and their clinical course.
+
+   <br><br>
+	   
+Participating sites adopt best practices in neuroimaging of epilepsy. In particular, we have adopted ILAE-HARNESS protocols for optimized structural imaging of epileptic patients and have furthermore incorporated cutting-edge multiband functional MRI and diffusion MRI sequences for connectome analysis and microstructural modelling.  
+
+<br><br>
 	
-<p>To fill these gaps, we launched the Epilepsy Neuroimaging Data EXchange (ENDEX) as a one-of-its kind initiative to collect, aggregate, analyze and share neuroimaging data for the identification and validation of useful, robust, and non-invasive neuroimaging biomarkers of epilepsy. </p>
-</br>
+    Acquired data and derivatives are stored in standardized (BIDS) format, and data processing adopts several cutting-edge open-access workflows, in particular 
+    <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a>, 
+    <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a>, and 
+    <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> in containerized form.
 
-<p>Our project involves an ongoing collection of high definition neuroimaging (3T MRI, 7T MRI, and sometimes PET) data in patients with epilepsy, their family members as well as healthy controls together with the tracking of standardized clinical and cognitive phenotypes.  Participants are followed longitudinally, both across the lifespan and their clinical course.</p>
-</br> 
+  <br><br>
+	  
+    Our project is being developed under an open science framework. Benchmark datasets in healthy individuals have already been released to the community in phase 1. In phase 2, we are sharing additionally processed derivatives from patients and controls with the broader neuroimaging and epilepsy research community, for transparent, reproducible, and maximally impactful research and biomarker discovery.
 
-<p>Participating sites adopt best practices in neuroimaging of epilepsy. In particular, we have adopted ILAE-HARNESS protocols for optimized structural imaging of epileptic patients and have furthermore incoproated cutting-edge multiband functional MRI and diffusion MRI sequences for connectome analysis and microstructural modelling. </p>
-</br> 	 	 
-<p>Acquired data and derivatives are stored in standardized (BIDS) format, and data processing adopts several cutting edge open access workflows, in particular <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a>, <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a>, and <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> in containerized form.</p>
-</br> 
-<p>Our project is being developed under an open science framework. Benchmak datasets in healthy individuals have already been released to the commuity in phase 1. In phase 2, we're sharing additionally processed derivatives from patients and controls with the broader neuroimaging and epilepsy research community, for transparent, reproducible, and maximally impactful research and biomarker discovery. </p>
-</br> 
-<p> Our project is closely aligned with other large-scale 7T data aquisition initiatives, notably the <a href="https://open-mpn.biobank.mcgill.ca" target="blank">Montreal Paris Neurobank</a> and the <a href="https://q1k.ca/en/"target="blank">Q1K</a> project, to situate epilepsy related changes in the context of normative lifespan processes and the broader landscape of neurodevelopmental indications. </p>
-</center>
+  <br><br>
+	  
+    Our project is closely aligned with other large-scale 7T data acquisition initiatives, notably the 
+    <a href="https://open-mpn.biobank.mcgill.ca" target="_blank">Montreal Paris Neurobank</a> and the 
+    <a href="https://q1k.ca/en/" target="_blank">Q1K</a> project, to situate epilepsy-related changes in the context of normative lifespan processes and the broader landscape of neurodevelopmental indications.
+  </p>
 </section>
 
 
 <section class="some-related-articles">
-  <center>
-<h1 id="project">PROJECT</h1>
-  <table style="width:100%">
-		<tr>
-			<td style="text-align:center">
-			<h2>SITES</h2> 
-			<p>
-			In its first phase, ENDEX is launched as a multisite initiative with the following partner sites:</br> 
-			Montreal Neurological Institute and Hospital (The Neuro, main site)</Br>
-			CHU St Justine Montreal (CHUSJ)</Br>
-			CHU Montreal (CHUM)</Br>
-			Montreal Childrens' Hospital (MCH)</Br>
-			BC Childrens' Hospital (BCCH)</Br>
-			<img src="assets/sites.png" width="800px" /></br>
-			</p>
-			</td>
-		</tr>
-		
-		<tr>
-			<td style="width:350px; text-align:center">
-			<h2>IMAGING DATA</h2> 
-			<p>
-			The following contrasts are routinely acquired and processed in our participants:</br>
-			3D Structural Imaging (T1w, FLAIR) based on ILAE-Harness recommdations previously published by our team (see <a href="https://pubmed.ncbi.nlm.nih.gov/31135062/" target="blank">this</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/34526291/" target="blank">this</a> paper))</br>
-			Myelin-sensitive 3D T1 relaxometry (for an application in epilepsy, see <a href="https://pubmed.ncbi.nlm.nih.gov/28583883/" target="blank">this</a>)</br>
-			Multiband functional MRI (at rest and during memory and language tasks) </br>
-			Multiband diffusion MRI for tractography and microstructural modelling</br>
-			Arterial Spin Labeling for the mapping of tissue perfusion</br> 
-			At the Neuro site, eligible participants furthermore undergo an additional 7T scan </br> 
-			</br>
-			</br>
-			Benchmark datasets in healthy participants have been previously shared with the community. 
-			</br>
-			</br>
-			Please visit <a href="https://osf.io/mhq3f/" target="_blank">data</a> and <a href="https://www.nature.com/articles/s41597-025-04863-7" target="blank">paper</a> for the 7T release. 	</br>
-			</br>		
-			<img src="assets/data_7T.png" width="700px" /></br>
-			</p>
-			</br>
-			</br>
-			For the 3T release, please see <a href="https://osf.io/j532r/">data</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/36109562/">paper</a> here
-			</br>		
-			<img src="assets/data_3T.png" width="700px" /></br>
-			</p>
-			</td>	
-		</tr>
-		
-		<tr>
-			<td style="width:350px; text-align:center">
-			<h2>IMAGE PROCESSING</h2> 
-			<p>
-All imaging data are routinely processed with <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a> for multimodal processing and connectome generation, <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a> for hippocampal mapping, and <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> for normative modelling and participant specific deviation mapping.</p>
-</br> 
-			
-			<img src="assets/processing.png" width="1000px" /></br>
+  <h1 id="sites" style="text-align:center;">SITES</h1>
 
- 			</p>
-			</td>	
-		</tr>
- </table>
- </center>
- </section> 
+  <table style="width:100%; text-align:center;">
+    <tr>
+      <td>
+            <img src="assets/sites.png" width="800" alt="Partner Sites">
+	        <p>
+         	 In its first phase, ENDEX is launched as a multisite initiative with the following REB approved partner sites:<br> 
+          Montreal Neurological Institute and Hospital (The Neuro, main site)<br>
+          CHU St Justine Montreal (CHUSJ)<br>
+          CHU Montreal (CHUM)<br>
+          Montreal Childrens' Hospital (MCH)<br>
+          BC Childrens' Hospital (BCCH)<br>
+        </p>
+
+      </td>
+    </tr>
+  </table>
+</section>
+
+<section class="some-related-articles">
+  <h1 id="sites" style="text-align:center;">DATA</h1>
+  <table style="width:100%; text-align:center;">
+    <tr>
+      <td style="width:350px;">
+        <p>
+          The following contrasts are routinely acquired and processed in our participants:<br>
+          3D Structural Imaging (T1w, FLAIR) based on ILAE-Harness recommendations previously published by our team (see 
+          <a href="https://pubmed.ncbi.nlm.nih.gov/31135062/" target="_blank">this</a> and 
+          <a href="https://pubmed.ncbi.nlm.nih.gov/34526291/" target="_blank">this</a> paper)<br>
+          Myelin-sensitive 3D T1 relaxometry (for an application in epilepsy, see 
+          <a href="https://pubmed.ncbi.nlm.nih.gov/28583883/" target="_blank">this</a>)<br>
+          Multiband functional MRI (at rest and during memory and language tasks)<br>
+          Multiband diffusion MRI for tractography and microstructural modelling<br>
+          Arterial Spin Labeling for the mapping of tissue perfusion<br> 
+          At the Neuro site, eligible participants furthermore undergo an additional 7T scan.
+        </p>
+
+        <p>
+          Benchmark datasets in healthy participants have been previously shared with the community.<br>
+          Please visit <a href="https://osf.io/mhq3f/" target="_blank">data</a> and 
+          <a href="https://www.nature.com/articles/s41597-025-04863-7" target="_blank">paper</a> for the 7T release.
+        </p>
+
+        <img src="assets/data_7T.png" width="700" alt="7T Dataset"><br><br>
+
+        <p>
+          For the 3T release, please see 
+          <a href="https://osf.io/j532r/">data</a> and 
+          <a href="https://pubmed.ncbi.nlm.nih.gov/36109562/">paper</a> here.
+        </p>
+        <img src="assets/data_3T.png" width="700" alt="3T Dataset">
+      </td>
+    </tr>
+
+    <tr>
+      <td style="width:350px;">
+        <p>
+          All imaging data are routinely processed with 
+          <a href="http://micapipe.readthedocs.io" target="_blank">micapipe</a> for multimodal processing and connectome generation, 
+          <a href="http://hippunfold.readthedocs.io" target="_blank">hippunfold</a> for hippocampal mapping, and 
+          <a href="http://z-brains.readthedocs.io" target="_blank">z-brains</a> for normative modelling and participant-specific deviation mapping.
+        </p>
+
+        <img src="assets/processing.png" width="1000" alt="Processing Pipeline">
+      </td>
+    </tr>
+  </table>
+</section>
  
  <section class="content_blue">
 	 </br>
@@ -147,9 +168,9 @@ All imaging data are routinely processed with <a href="http://micapipe.readthedo
 
 
  <section class="some-related-articles">
-  <center>
- <h1 id="team"> TEAM</h1>
-  <table style="width:100%">
+	  <h1 id="team" style="text-align:center;">TEAM</h1>
+
+  	  <table style="width:100%; text-align:left;">
 		<tr>
 			
     		<td style="width:160px" valign="top">
@@ -281,14 +302,13 @@ All imaging data are routinely processed with <a href="http://micapipe.readthedo
 
 
  </table>		
-  </center>
  </section> 
  
  
-  <section class="some-related-articles">
-  <center>
- <h1 id="participate"> PARTICIPATE</h1>
-  <table style="width:100%">
+ <section class="some-related-articles">
+
+ <h1 id="participate" style="text-align:center;"> PARTICIPATE</h1>
+  <table style="width:100% ">
 		<tr>
 			<td style="width:350px; text-align:center">
 				<p>
@@ -298,13 +318,12 @@ All imaging data are routinely processed with <a href="http://micapipe.readthedo
 		</tr>
 	
  </table>	
-   </center>
  </section> 
 
  
   <section class="some-related-articles">
   <center>
- <h1 id="sponsors"> SPONSORS</h1>
+ <h1 id="sponsors" style="text-align:center;"> SPONSORS</h1>
  
   <table style="width:100%" >
 				
@@ -343,6 +362,9 @@ All imaging data are routinely processed with <a href="http://micapipe.readthedo
 <section class="content_blue">
  </br>
  </br> 
+	 <p style="text-align:center">ENDEX - all rights reserved</p>
+		 
+	 </br> 
  </br>
 </section>
 </body>
